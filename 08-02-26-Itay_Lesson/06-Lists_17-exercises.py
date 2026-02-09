@@ -88,10 +88,16 @@ list2 = [2, 5, 7] -- sorted
 Create list3 that contains all numbers from both lists but keep them sorted
 '''
 # [1, 2, 4, 5, 6, 7]
-# list1 = [1, 4, 6]
-# list2 = [2, 5, 7]
-# list3 = []
-
+list1 = [1, 4, 6]
+list2 = [2, 5, 7]
+list3 = []
+for i in list1:
+     list3.append(i)
+for i in list2 :
+     list3.append(i)
+print(f"not sorted list = {list3}")  
+list3.sort()     
+print(f" sorted list = {list3}") 
 
 '''
 7
