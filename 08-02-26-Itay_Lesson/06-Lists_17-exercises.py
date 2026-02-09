@@ -5,13 +5,12 @@ list2 = [1, 2, 5]
 Remove all items from list1 that appear in list2
 Print list1 at the end
 '''
-from itertools import count
 list1: list[int] = [1, 3, 5, 1, 7, 9, 2, 2, 8, 5, 10, 5]
 list2: list[int] = [1, 2, 5]
 for item in list2:
     while item in list1:
          list1.remove(item)
-print(f"list1 {list1}")
+print(f"list1 = {list1}")
 
 '''
 2
@@ -89,6 +88,7 @@ list1 = [1, 4, 6] -- sorted
 list2 = [2, 5, 7] -- sorted
 Create list3 that contains all numbers from both lists but keep them sorted
 '''
+# [1, 2, 4, 5, 6, 7]
 # list1 = [1, 4, 6]
 # list2 = [2, 5, 7]
 # list3 = []
