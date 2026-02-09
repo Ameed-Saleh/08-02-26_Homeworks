@@ -30,7 +30,6 @@ for item in list2:
     list4.append(item)
 for item in list3:
     list4.append(item)
-
 print(f"list4 {list4}")
 
 '''
